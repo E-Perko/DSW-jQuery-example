@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ar$(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
@@ -7,6 +7,6 @@ $(document).ready(function() {
 		$("img").addClass("border");
 	});
 	$("#p1").click(function() {
-		$("p").hide();
+		$("p").disappear();
 	});
 });
